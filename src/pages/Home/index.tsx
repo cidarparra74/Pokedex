@@ -12,7 +12,7 @@ export const Home = () => {
   const { pokemonsFiltered } = useContext(PokemonContext);
   const { page, nextPage, previousPage, backToHome } = usePagination();
 
-  let perPage = 12;
+  let perPage = 20;
 
   return (
     <div className={styles.home}>
